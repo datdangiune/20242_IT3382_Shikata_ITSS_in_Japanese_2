@@ -1,1 +1,0 @@
-# 2024.2_IT3382_Shikata_ITSS_in_Japanese_2

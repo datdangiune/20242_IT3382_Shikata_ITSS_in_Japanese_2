@@ -5,17 +5,9 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: '/2024.2_IT3382_Shikata_ITSS_in_Japanese_2/',
   server: {
     host: "::",
     port: 8080,
-  },
-  build: {
-    rollupOptions: {
-      input: {
-        main: path.resolve(__dirname, 'index.html'),
-      },
-    },
   },
   plugins: [
     react(),
