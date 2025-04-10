@@ -62,33 +62,7 @@ This project is built with .
 
 ## How can I deploy this project?
 
-To deploy this project to GitHub Pages:
-
-1. Ensure the `homepage` field in `package.json` is set to the correct GitHub Pages URL:
-   ```
-   "homepage": "https://<USERNAME>.github.io/<REPOSITORY_NAME>"
-   ```
-
-2. Create a `404.html` file in the `public` directory with the following content:
-   ```html
-   <script>
-     window.location.href = '/2024.2_IT3382_Shikata_ITSS_in_Japanese_2/' + location.pathname.substring(1);
-   </script>
-   ```
-
-3. Run the following commands:
-   ```sh
-   npm run predeploy
-   npm run deploy
-   ```
-
-4. Your project will be deployed to GitHub Pages.
-
-### Handling SPA Routing
-
-GitHub Pages requires a `404.html` file to handle non-root routes in single-page applications. This file redirects all non-existent routes to `index.html` so that React Router can handle them.
-
-Simply open [Lovable](https://lovable.dev/projects/15adce6c-6b60-43a0-9523-a5cfecf05ee4) and click on Share -> Publish for Lovable deployment.
+Simply open [Lovable](https://lovable.dev/projects/15adce6c-6b60-43a0-9523-a5cfecf05ee4) and click on Share -> Publish.
 
 ## Can I connect a custom domain to my Lovable project?
 
