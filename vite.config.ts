@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => ({
   base: '/2024.2_IT3382_Shikata_ITSS_in_Japanese_2/',
   server: {
     host: "::",
-    port: 8080,
+    port: 8000,
   },
   plugins: [
     react(),
